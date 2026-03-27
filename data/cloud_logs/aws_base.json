@@ -1,0 +1,74 @@
+[
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-19T21:17:28Z",
+    "service": "ec2",
+    "operation": "StartInstances",
+    "user": "Mateo",
+    "source_ip": "192.0.2.0",
+    "region": "us-east-1",
+    "severity": "INFO",
+    "message": "EC2 instances started",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-19T21:14:20Z",
+    "service": "ec2",
+    "operation": "StopInstances",
+    "user": "Nikki",
+    "source_ip": "192.0.2.0",
+    "region": "us-east-1",
+    "severity": "INFO",
+    "message": "EC2 instances stopped",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-19T21:25:09Z",
+    "service": "iam",
+    "operation": "CreateUser",
+    "user": "Mary",
+    "source_ip": "192.0.2.0",
+    "region": "us-east-1",
+    "severity": "INFO",
+    "message": "IAM user created",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-19T21:25:09Z",
+    "service": "iam",
+    "operation": "AddUserToGroup",
+    "user": "Paulo",
+    "source_ip": "192.0.2.0",
+    "region": "us-east-1",
+    "severity": "INFO",
+    "message": "User added to IAM group",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-19T21:29:12Z",
+    "service": "iam",
+    "operation": "CreateRole",
+    "user": "Saanvi",
+    "source_ip": "192.0.2.0",
+    "region": "us-east-1",
+    "severity": "INFO",
+    "message": "IAM role created",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-19T21:35:03Z",
+    "service": "cloudtrail",
+    "operation": "UpdateTrail",
+    "user": "Terry",
+    "source_ip": "192.0.2.0",
+    "region": "us-east-1",
+    "severity": "ERROR",
+    "message": "Trail update failed: TrailNotFoundException",
+    "raw_event_type": "AwsApiCall"
+  }
+]

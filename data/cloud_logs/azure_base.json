@@ -1,0 +1,38 @@
+[
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2018-01-29T20:42:31Z",
+    "service": "Microsoft.Network",
+    "operation": "networkSecurityGroups/write",
+    "user": "rob@contoso.com",
+    "source_ip": "111.111.1.111",
+    "region": "UK South",
+    "severity": "INFO",
+    "message": "Network Security Group created or updated",
+    "raw_event_type": "Administrative"
+  },
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2017-07-20T23:30:14Z",
+    "service": "Microsoft.ServiceHealth",
+    "operation": "incident/action",
+    "user": "system",
+    "source_ip": "N/A",
+    "region": "UK South",
+    "severity": "WARNING",
+    "message": "Service health incident reported",
+    "raw_event_type": "ServiceHealth"
+  },
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2017-10-18T06:02:18Z",
+    "service": "Microsoft.Security",
+    "operation": "alerts/activate",
+    "user": "myUser",
+    "source_ip": "N/A",
+    "region": "centralus",
+    "severity": "HIGH",
+    "message": "Suspicious executable detected (double extension)",
+    "raw_event_type": "Security"
+  }
+]

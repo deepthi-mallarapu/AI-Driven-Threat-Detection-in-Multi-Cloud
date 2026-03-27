@@ -1,0 +1,26 @@
+[
+  {
+    "cloud_provider": "GCP",
+    "timestamp": "2019-05-27T16:24:56Z",
+    "service": "appengine.googleapis.com",
+    "operation": "SetIamPolicy",
+    "user": "user@example.com",
+    "source_ip": "N/A",
+    "region": "global",
+    "severity": "NOTICE",
+    "message": "IAM policy updated for App Engine application",
+    "raw_event_type": "cloudaudit.googleapis.com/activity"
+  },
+  {
+    "cloud_provider": "GCP",
+    "timestamp": "2019-06-01T11:42:10Z",
+    "service": "compute.googleapis.com",
+    "operation": "compute.instances.delete",
+    "user": "attacker@example.com",
+    "source_ip": "N/A",
+    "region": "us-central1-a",
+    "severity": "ERROR",
+    "message": "Unauthorized VM deletion attempt (permission denied)",
+    "raw_event_type": "cloudaudit.googleapis.com/activity"
+  }
+]

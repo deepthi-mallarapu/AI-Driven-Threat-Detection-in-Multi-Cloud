@@ -1,0 +1,168 @@
+[
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T09:10:00Z",
+    "service": "ec2",
+    "operation": "StartInstances",
+    "user": "devops",
+    "source_ip": "10.0.0.5",
+    "region": "us-east-1",
+    "message": "EC2 instance started",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T09:15:00Z",
+    "service": "ec2",
+    "operation": "StopInstances",
+    "user": "devops",
+    "source_ip": "10.0.0.6",
+    "region": "us-east-1",
+    "message": "EC2 instance stopped",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T09:20:00Z",
+    "service": "s3",
+    "operation": "ListBuckets",
+    "user": "automation",
+    "source_ip": "10.0.1.10",
+    "region": "us-east-1",
+    "message": "S3 buckets listed",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T09:25:00Z",
+    "service": "iam",
+    "operation": "ListUsers",
+    "user": "security",
+    "source_ip": "10.0.2.15",
+    "region": "us-east-1",
+    "message": "IAM users listed",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2023-07-20T09:30:00Z",
+    "service": "Microsoft.Compute",
+    "operation": "virtualMachines/start",
+    "user": "ops@company.com",
+    "source_ip": "10.10.1.5",
+    "region": "centralus",
+    "message": "Virtual machine started",
+    "raw_event_type": "Administrative"
+  },
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2023-07-20T09:35:00Z",
+    "service": "Microsoft.Network",
+    "operation": "networkInterfaces/read",
+    "user": "ops@company.com",
+    "source_ip": "10.10.1.6",
+    "region": "centralus",
+    "message": "Network interface details read",
+    "raw_event_type": "Administrative"
+  },
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2023-07-20T09:40:00Z",
+    "service": "Microsoft.Authorization",
+    "operation": "roleAssignments/read",
+    "user": "security@company.com",
+    "source_ip": "10.10.2.20",
+    "region": "centralus",
+    "message": "Role assignments read",
+    "raw_event_type": "Administrative"
+  },
+  {
+    "cloud_provider": "GCP",
+    "timestamp": "2023-07-20T09:45:00Z",
+    "service": "compute.googleapis.com",
+    "operation": "compute.instances.start",
+    "user": "ops@gcp.com",
+    "source_ip": "10.20.1.5",
+    "region": "us-central1-a",
+    "message": "Compute instance started",
+    "raw_event_type": "cloudaudit.googleapis.com/activity"
+  },
+  {
+    "cloud_provider": "GCP",
+    "timestamp": "2023-07-20T09:50:00Z",
+    "service": "compute.googleapis.com",
+    "operation": "compute.instances.stop",
+    "user": "ops@gcp.com",
+    "source_ip": "10.20.1.6",
+    "region": "us-central1-a",
+    "message": "Compute instance stopped",
+    "raw_event_type": "cloudaudit.googleapis.com/activity"
+  },
+  {
+    "cloud_provider": "GCP",
+    "timestamp": "2023-07-20T09:55:00Z",
+    "service": "storage.googleapis.com",
+    "operation": "storage.objects.list",
+    "user": "automation@gcp.com",
+    "source_ip": "10.20.2.10",
+    "region": "global",
+    "message": "Storage objects listed",
+    "raw_event_type": "cloudaudit.googleapis.com/activity"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T10:00:00Z",
+    "service": "cloudtrail",
+    "operation": "LookupEvents",
+    "user": "security",
+    "source_ip": "10.0.3.10",
+    "region": "us-east-1",
+    "message": "CloudTrail events queried",
+    "raw_event_type": "AwsApiCall"
+  },
+  {
+    "cloud_provider": "Azure",
+    "timestamp": "2023-07-20T10:05:00Z",
+    "service": "Microsoft.ServiceHealth",
+    "operation": "incident/read",
+    "user": "system",
+    "source_ip": "N/A",
+    "region": "centralus",
+    "message": "Service health incident checked",
+    "raw_event_type": "ServiceHealth"
+  },
+  {
+    "cloud_provider": "GCP",
+    "timestamp": "2023-07-20T10:10:00Z",
+    "service": "iam.googleapis.com",
+    "operation": "roles.list",
+    "user": "security@gcp.com",
+    "source_ip": "10.20.3.5",
+    "region": "global",
+    "message": "IAM roles listed",
+    "raw_event_type": "cloudaudit.googleapis.com/activity"
+  },
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T10:15:00Z",
+    "service": "ec2",
+    "operation": "DescribeInstances",
+    "user": "automation",
+    "source_ip": "10.0.4.5",
+    "region": "us-east-1",
+    "message": "EC2 instances described",
+    "raw_event_type": "AwsApiCall"
+  },
+
+  {
+    "cloud_provider": "AWS",
+    "timestamp": "2023-07-20T01:18:00Z",
+    "service": "ec2",
+    "operation": "StartInstances",
+    "user": "unknown",
+    "source_ip": "203.0.113.101",
+    "region": "us-east-1",
+    "message": "AccessDenied: User is not authorized to perform this operation",
+    "raw_event_type": "AwsApiCall"
+  }
+]
